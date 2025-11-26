@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.16.0",
+    "sdksVersions": {},
+    "version": "1.21.0-rc.0",
+    "libraryName": "demo",
+    "libraryId": "4f59ae49-8514-41bc-9555-59a2ec227c96",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "demo",
+    "solutionShortDescription": "demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "4d91938c-48ff-458b-b9dd-16a4b75f946d",
+  "alias": "DemoCommandCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "items": {
+    "demoCommand": {
+      "title": { "default": "Readact" },
+      "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAAAAADFHGIkAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAD/h4/MvwAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+kLGgw0LUIEMOYAAAHfSURBVCjPTZFdSFNxGMaf/zln6xxOjpZuWVYEtdDhEnGKeWFBaLSr0JIgUhK8iBRGBBkuUAQRJBQjpJskYkHhV5CtiEDpoo8lKEFE04vQ9cFxUzO3OTr/t4uddXb3vPzel+fhfRgBAPDnSlQ25Jc9+OEeljIDNP2RDQRGYDdP0iz/mgXcansx6y4OtR0GBlCp8CwAkWdXQb7PCTjqyfIb/wEAFlsV3tvL/QpS3bng0xsB4K5jOwGVckFDQ861CThWN7Ja2WeCvDLr+CvB2HFfZ1nwLizOXThPBICBREvGYyV15L4No9WL8n6s340z7mpjkIDIreRxrRbj/W+VXpd8KsnILgAS1gO1eYvtVdg707gZuKeYqWTn5qHmpSnU9E5/dyrJ13HGXaWARHpN6Mb0aDmetvoen/lru8YZiRJBmu8TLmoPOr34OOA9F5xof/aLZeIuO094Ig4v4C2IeBpnEv4UoFgIkhjVoG5t78D2lgotKhcZ5kJFXThYoo7EYiNqSTBcX2o8GlLh1SehRNdgB4q6Eku+JmNfJ0axliZ+evca7PGXwlhgMg0A/FsPo/Tt5cIPZWcxtVD18+DlzzoA4MBRRkgPaZf6fXje+dDht5p1EsBJ7JhDxR2dCWZR/wCeEaz/Kq1itwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0xMS0yNlQxMjo1MjozMCswMDowMHRD/K4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjUtMTEtMjZUMTI6NTI6MzArMDA6MDAFHkQSAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI1LTExLTI2VDEyOjUyOjQ1KzAwOjAwCvZDcwAAAABJRU5ErkJggg==",
+      "type": "command"
+    }
+  }
+}

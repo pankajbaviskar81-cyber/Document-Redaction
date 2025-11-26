@@ -1,0 +1,43 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=22.14.0 < 23.0.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.125.1",
+    "@microsoft/decorators": "1.21.0-rc.0",
+    "@microsoft/sp-core-library": "1.21.0-rc.0",
+    "@microsoft/sp-dialog": "1.21.0-rc.0",
+    "@microsoft/sp-listview-extensibility": "1.21.0-rc.0",
+    "@pnp/sp": "^4.17.0",
+    "docx": "^9.5.1",
+    "mammoth": "^1.11.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^3.10.113",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "tesseract.js": "^2.1.5",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@microsoft/eslint-config-spfx": "1.21.0-rc.0",
+    "@microsoft/eslint-plugin-spfx": "1.21.0-rc.0",
+    "@microsoft/rush-stack-compiler-5.3": "0.1.0",
+    "@microsoft/sp-build-web": "1.21.0-rc.0",
+    "@microsoft/sp-module-interfaces": "1.21.0-rc.0",
+    "@rushstack/eslint-config": "4.0.1",
+    "@types/webpack-env": "~1.15.2",
+    "ajv": "^6.12.5",
+    "eslint": "8.57.1",
+    "gulp": "4.0.2",
+    "typescript": "~5.3.3"
+  }
+}

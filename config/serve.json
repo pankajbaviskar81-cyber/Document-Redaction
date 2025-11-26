@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://monarch360demo.sharepoint.com/sites/DeveloperSandbox/Sandbox%20Document%20Library/Forms/AllItems.aspx",
+      "customActions": {
+        "4d91938c-48ff-458b-b9dd-16a4b75f946d": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "demoCommand": {
+      "pageUrl": "https://monarch360demo.sharepoint.com/sites/DeveloperSandbox/Sandbox%20Document%20Library/Forms/AllItems.aspx",
+      "customActions": {
+        "4d91938c-48ff-458b-b9dd-16a4b75f946d": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
